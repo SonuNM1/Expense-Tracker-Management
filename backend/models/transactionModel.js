@@ -25,7 +25,7 @@ const transactionSchema = new mongoose.Schema({
         required: [true, 'Please provide a brief description of the transaction.']
     },
     date: {
-        type: String,
+        type: Date,
         required: [true, 'A date is required to record when the transaction took place.']
     }
 }, {

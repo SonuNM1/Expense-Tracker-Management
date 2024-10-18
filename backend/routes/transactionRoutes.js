@@ -11,6 +11,6 @@ router.post('/add-transaction', addTransaction)
 
 // Get transaction 
 
-router.get('/get-transaction', getAllTransaction)
+router.post('/get-transaction', getAllTransaction)
 
 module.exports = router ; 
